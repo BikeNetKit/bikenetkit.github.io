@@ -11,7 +11,7 @@
     -->
     <script> 
       window.onload = () => {
-          currentpath = window.location.pathname.replace(/\/+$/, '');
+          currentpath = location.pathname.replace(/\/+$/, '');
           if (currentpath == "growbikenet") {
               location.replace(window.location.hostname+"GrowBikeNet");
           } else if (currentpath == "fixbikenet") {
