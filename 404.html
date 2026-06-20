@@ -5,13 +5,24 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <title>Page not found &middot; GitHub Pages</title>
 
-    <!-- https://stackoverflow.com/a/73263779 -->
+    <!-- 
+    Fix capitalization issue: Redirects to the Pascal case URL.
+    Adapted from: https://stackoverflow.com/a/73263779
+    -->
     <script> 
       window.onload = () => {
           currentpath = window.location.pathname;
-          if (currentpath == "growbikenet") {
+          if (currentpath == "growbikenet" || currentpath == "growbikenet/") {
               location.replace(window.location.hostname+"GrowBikeNet");
-          }
+          } else if (currentpath == "fixbikenet" || currentpath == "fixbikenet/") {
+              location.replace(window.location.hostname+"FixBikeNet");
+          } else if (currentpath == "linkbikenet" || currentpath == "linkbikenet/") {
+              location.replace(window.location.hostname+"LinkBikeNet");
+          } else if (currentpath == "loopbikenet" || currentpath == "loopbikenet/") {
+              location.replace(window.location.hostname+"LoopBikeNet");
+          } else if (currentpath == "bikenetlib" || currentpath == "bikenetlib/") {
+              location.replace(window.location.hostname+"BikeNetLib");
+          } 
       };
     </script>
 
