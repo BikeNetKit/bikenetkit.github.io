@@ -7,4 +7,4 @@ This repository exists to set up the docs root page with the following sub-pages
 - LoopBikeNet Docs: https://docs.bikenetkit.org/LoopBikeNet
 - BikeNetLib Docs: https://docs.bikenetkit.org/BikeNetLib
 
-The contents of this `gh-pages` branch are depoyed at: https://docs.bikenetkit.org
+The contents of this `gh-pages` branch are deployed at: https://docs.bikenetkit.org
