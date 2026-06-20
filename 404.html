@@ -6,7 +6,14 @@
     <title>Page not found &middot; GitHub Pages</title>
 
     <!-- https://stackoverflow.com/a/73263779 -->
-    <script type="text/javascript" src="fixcapitalization.js"></script>
+    <script> 
+      window.onload = () => {
+          currentpath = window.location.pathname;
+          if (currentpath == "growbikenet") {
+              location.replace(window.location.hostname+"GrowBikeNet");
+          }
+      };
+    </script>
 
     <style type="text/css" media="screen">
       body {
