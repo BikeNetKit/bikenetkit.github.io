@@ -10,7 +10,8 @@
     Adapted from: https://stackoverflow.com/a/73263779
     -->
     <script> 
-      window.onload = () => {
+      window.addEventListener('load', 
+        function() {
           currentpath = location.pathname.replace(/\/+$/, '');
           if (currentpath == "growbikenet") {
               location.replace(window.location.hostname+"GrowBikeNet");
@@ -22,8 +23,8 @@
               location.replace(window.location.hostname+"LoopBikeNet");
           } else if (currentpath == "bikenetlib") {
               location.replace(window.location.hostname+"BikeNetLib");
-          } 
-      };
+          }
+      }, false);
     </script>
 
     <style type="text/css" media="screen">
