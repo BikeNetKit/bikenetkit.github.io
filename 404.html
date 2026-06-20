@@ -11,16 +11,16 @@
     -->
     <script> 
       window.onload = () => {
-          currentpath = window.location.pathname;
-          if (currentpath == "growbikenet" || currentpath == "growbikenet/") {
+          currentpath = window.location.pathname.replace(/\/+$/, '');
+          if (currentpath == "growbikenet") {
               location.replace(window.location.hostname+"GrowBikeNet");
-          } else if (currentpath == "fixbikenet" || currentpath == "fixbikenet/") {
+          } else if (currentpath == "fixbikenet") {
               location.replace(window.location.hostname+"FixBikeNet");
-          } else if (currentpath == "linkbikenet" || currentpath == "linkbikenet/") {
+          } else if (currentpath == "linkbikenet") {
               location.replace(window.location.hostname+"LinkBikeNet");
-          } else if (currentpath == "loopbikenet" || currentpath == "loopbikenet/") {
+          } else if (currentpath == "loopbikenet") {
               location.replace(window.location.hostname+"LoopBikeNet");
-          } else if (currentpath == "bikenetlib" || currentpath == "bikenetlib/") {
+          } else if (currentpath == "bikenetlib") {
               location.replace(window.location.hostname+"BikeNetLib");
           } 
       };
