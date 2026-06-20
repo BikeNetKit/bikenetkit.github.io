@@ -5,6 +5,17 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'">
     <title>Page not found &middot; GitHub Pages</title>
+
+    <!-- https://stackoverflow.com/a/73263779 -->
+    <script> 
+      window.onload = () => {
+          currentpath = window.location.pathname;
+          if (currentpath == "growbikenet") {
+              location.replace(window.location.hostname+"GrowBikeNet");
+          }
+      };
+    </script>
+
     <style type="text/css" media="screen">
       body {
         background-color: #f1f1f1;
