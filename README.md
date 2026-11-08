@@ -1,10 +1,5 @@
-# BikeNetKit docs root page
+# BikeNetKit docs pages
 
-This repository exists to set up the docs root page with the following sub-pages:
-- GrowBikeNet Docs: https://docs.bikenetkit.org/GrowBikeNet
-- FixBikeNet Docs: https://docs.bikenetkit.org/FixBikeNet
-- LinkBikeNet Docs: https://docs.bikenetkit.org/LinkBikeNet
-- LoopBikeNet Docs: https://docs.bikenetkit.org/LoopBikeNet
-- BikeNetLib Docs: https://docs.bikenetkit.org/BikeNetLib
+This repository exists to set up the docs overview page at [https://docs.bikenetkit.org](https://docs.bikenetkit.org) and to enable the individual docs pages.
 
-The contents of this `gh-pages` branch are deployed at: https://docs.bikenetkit.org
+The overview page is deployed via the `gh-pages` branch.
